@@ -40,7 +40,10 @@ function App() {
           element={<FormLayout input={input} setInput={setInput} />}
         >
           <Route index element={<Form input={input} setInput={setInput} />} />
-          <Route path="successful" element={<ThankYou setInput={setInput} />} />
+          <Route
+            path="/successful"
+            element={<ThankYou setInput={setInput} />}
+          />
         </Route>
       </Routes>
     </>
