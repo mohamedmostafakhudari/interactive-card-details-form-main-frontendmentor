@@ -40,7 +40,7 @@ export default function ThankYou({ setInput }) {
     >
       <div className="container flex flex-col items-center gap-5 mx-auto px-5 mt-24 md:min-w-[400px] lg:mt-0 ">
         <div className="mb-5">
-          <img src="/assets/images/icon-complete.svg" alt="successful" />
+          <img src="./assets/images/icon-complete.svg" alt="successful" />
         </div>
         <h1 className="uppercase text-2xl text-grayViolet-900 tracking-[4px] font-bold">
           thank you!

@@ -39,7 +39,7 @@ export default function HeroBackground({ input }) {
         >
           {/* logo */}
           <div className="w-12">
-            <img src="/assets/images/card-logo.svg" alt="logo" />
+            <img src="./assets/images/card-logo.svg" alt="logo" />
           </div>
           {/* ccn */}
           <p className="mt-6 tracking-widest">
