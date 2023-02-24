@@ -226,8 +226,8 @@ export default function Form({ input, setInput }) {
                 {input.ccn.errorMessage}
               </span>
             </div>
-            <div className="flex gap-2">
-              <div className="flex-1">
+            <div className="flex flex-wrap min-[375px]:flex-nowrap gap-2">
+              <div className="w-full min-[375px]:flex-1">
                 <label
                   htmlFor="exDate"
                   className="uppercase text-grayViolet-900 lg:text-sm tracking-wider"
@@ -266,7 +266,7 @@ export default function Form({ input, setInput }) {
                   {input.exDate.errorMessage}
                 </span>
               </div>
-              <div className="flex-1">
+              <div className="w-full min-[375px]:flex-1">
                 <label
                   htmlFor="cvc"
                   className="uppercase text-grayViolet-900 lg:text-sm tracking-wider"

@@ -26,7 +26,7 @@ export default function HeroBackground({ input }) {
       <div className="container mx-auto px-5 h-full relative">
         <div
           style={backBackgroundStyle}
-          className="bg-card-back p-5 rounded-lg text-white w-64 h-36 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:left-full lg:mt-24"
+          className="bg-card-back p-5 rounded-lg text-white w-64 h-36 absolute top-[calc(50%-1vh)] left-1/2 -translate-x-1/2 -translate-y-1/2 lg:left-full lg:mt-24"
         >
           {/* cvc */}
           <p className="text-xs absolute top-1/2 -mt-2 right-7 tracking-wider">
@@ -35,7 +35,7 @@ export default function HeroBackground({ input }) {
         </div>
         <div
           style={frontBackgroundStyle}
-          className="bg-card-front p-5 rounded-lg text-white w-64 h-36 absolute bottom-0 translate-y-1/4 md:left-1/2 md:-translate-x-full lg:top-1/2 lg:left-full lg:-translate-x-3/4 lg:-translate-y-full"
+          className="bg-card-front p-5 rounded-lg text-white w-64 h-36 absolute bottom-0 translate-y-[calc(25%+5vh)] md:left-1/2 md:-translate-x-full lg:top-1/2 lg:left-full lg:-translate-x-3/4 lg:-translate-y-full"
         >
           {/* logo */}
           <div className="w-12">
